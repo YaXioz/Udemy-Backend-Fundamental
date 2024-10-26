@@ -5,7 +5,7 @@ import datetime
 from functools import wraps
 
 app = Flask(__name__)
-app.config["SECRET_KEY"] = "baw87ftfw8f23f32wf2h98qeqd21jdil"
+app.config["SECRET_KEY"] = "b7c29387b98iynqwunixqhwiehrqiuweouqyouyo98uyqiwkf"
 
 def token_required(f):
     @wraps(f)
